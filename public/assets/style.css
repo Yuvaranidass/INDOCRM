@@ -1,0 +1,59 @@
+body {
+  background-color: white;
+}
+
+.navbar{
+  position: fixed;
+  width: 100%;
+}
+
+.smart-container-sign {
+  position: relative;
+  top: 2em;
+  width: 44em;
+  left: 18em;
+  border-radius: 1em;
+}
+
+.smart-input {
+  border: none;
+  background-color: lightgray !important;
+  color: black !important;
+}
+
+.notification {
+  position: fixed;
+  top: 32px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.errors {
+  background-color: #ffdd57;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 1em;
+}
+
+.smart-colleges {
+  background-color: lightgrey;
+  border-radius: 1em;
+  text-align: center;
+  padding: 7.7em;
+}
+
+.cancel {
+  width: 5em;
+}
+
+.smart-cancel {
+  position: relative;
+  top: 1rem;
+  width: 18em;
+}
+
+.smart-nav{
+  position: relative;
+  height: 20rem;
+
+}
