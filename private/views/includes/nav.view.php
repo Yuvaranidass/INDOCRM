@@ -1,7 +1,7 @@
 <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
         <a class="navbar-item is-size-4 has-text-weight-semibold" href="<?= ROOT ?>">
-            INDO SOLAR
+            INDO CRM
         </a>
 
         <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -15,22 +15,37 @@
     <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-start">
             <a class="navbar-item" href="<?= ROOT ?>">
-                About Us
+                Home
             </a>
             <a class="navbar-item" href="<?= ROOT ?>/departments">
-                Technology
+                Leads
             </a>
             <a class="navbar-item" href="<?= ROOT ?>/users">
-                Purchasing procedures
+                Contacts
             </a>
             <a class="navbar-item" href="<?= ROOT ?>/students">
-                Placement & HR
+                Accounts
             </a>
             <a class="navbar-item" href="<?= ROOT ?>/classes">
-                Forms & Certificates
+                Deals
             </a>
             <a class="navbar-item" href="<?= ROOT ?>/tests">
-                Contact
+                Tasks
+            </a>
+            <a class="navbar-item" href="<?= ROOT ?>/tests">
+                Meetings
+            </a>
+            <a class="navbar-item" href="<?= ROOT ?>/tests">
+                Calls
+            </a>
+            <a class="navbar-item" href="<?= ROOT ?>/tests">
+                Reports
+            </a>
+            <a class="navbar-item" href="<?= ROOT ?>/tests">
+                Services
+            </a>
+            <a class="navbar-item" href="<?= ROOT ?>/tests">
+                Projects
             </a>
         </div>
         <div class="navbar-end mr-1">
@@ -55,5 +70,6 @@
         </div>
     </div>
 </nav>
+
 
 <script src="<?= ASSETS ?>/nav.js"></script>
